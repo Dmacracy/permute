@@ -10,6 +10,7 @@ jobs:
 
   ubuntu:
     runs-on: Ubuntu-latest
+    timeout-minutes: 10
     strategy:
       matrix:
         python-version: [3.8]
